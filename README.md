@@ -1,14 +1,14 @@
-### DIGITAL ACADEMY
+# DIGITAL ACADEMY
 
-# Formulario de inscripción moderno y responsive para Digital Academy, plataforma de cursos online. Desarrollado con HTML5 semántico y CSS3 con variables personalizadas.
+- Formulario de inscripción moderno y responsive para Digital Academy, plataforma de cursos online. Desarrollado con HTML5 semántico y CSS3 con variables personalizadas.
 
-## Descripción
+# Descripción
 
-# Formulario de inscripción para Digital Academy, una academia de cursos online especializados en tecnología. Diseñado con enfoque en:
-- Validación nativa de HTML5
-- Diseño responsive y centrado
-- Accesibilidad con etiquetas semánticas
-- Paleta de colores violeta moderna y profesional
+- Formulario de inscripción para Digital Academy, una academia de cursos online especializados en tecnología. Diseñado con enfoque en:
+* Validación nativa de HTML5
+* Diseño responsive y centrado
+* Accesibilidad con etiquetas semánticas
+* Paleta de colores violeta moderna y profesional
 
 #  Características funcionales
 
