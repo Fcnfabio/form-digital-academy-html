@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Academy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class = "form-wrapper">
+        <article class = "form-container">
+            <header>
+                <h1>Inscríbete a Digital Academy</h1>
+                <p id="form-description">Selecciona tu curso y comienza a aprender</p>
+            </header>
+            <form>
+                <section>
+                    <fieldset>
+                        <legend>Información Personal</legend>
+                        <div class="form-field">
+                            <label for="full-name"> Nombre completo: </label>    
+                            <input type="text" id="full-name"  name = "full-name"
+                            autocomplete = "full-name"
+                            placeholder = "E.J: John Doe" required> 
+                        </div>
+                        <div class="form-field">
+                            <label for="email"> Correo Electrónico: </label>    
+                            <input type="email" id="email" name = "email" 
+                            autocomplete ="email"
+                            placeholder = "E.J: jonhdoe@gmail.com" required> 
+                        </div>
+                        <div class="form-field">
+                            <label for="edad"> Edad: </label>
+                            <input type="number" id="edad" name="edad"
+                            autocomplete = "edad"
+                            placeholder = "E.J: 12" required>
+
+                        </div>
+                    </fieldset>
+                </section>
+                <section>
+                    <fieldset>
+                        <legend>Categoría</legend>
+                        <div class = "form-field">
+                            <label for= "categoria">Escoja una categoría</label>
+                            <select id = "categoria" name="categoria" required>
+                                <option value= "" disabled selected>Seleccione una opción</option>
+                                <option value= "diseño-UX/UI">Diseño UX/UI</option>
+                                <option value= "marketing-digital">Marketing Digital</option>
+                                <option value= "ciencia-de-datos">Ciencia de datos</option>
+                                <option value= "ciberseguridad">Ciberseguridad</option>
+                            </select>
+                        </div>
+                        <div class= "form-field">
+                            <p id="modalidad" class= "label-style">Modalidad</p>
+                            <div class="options-container">
+                                    <label class="radio-label">
+                                        <input type="radio"
+                                        name="modalidad-usuario"
+                                        value="online"> En línea
+                                    </label>
+
+                                    <label class="radio-label">
+                                        <input type="radio"
+                                        name="modalidad-usuario"
+                                        value="presencial"> Presencial
+                                    
+                                    <label class="radio-label">
+                                        <input type="radio"
+                                        name="modalidad-usuario"
+                                        value="híbrido"> Híbrido
+                            </div>
+                        <div class= "form-field">
+                            <p id="dificultad" class= "label-style">Nivel de dificultad</p>
+                            <div class="options-container">
+                                    <label class="radio-label">
+                                        <input type="radio"
+                                        name="dificultad-usuario"
+                                        value="jr"> Principiante
+                                    </label>
+
+                                    <label class="radio-label">
+                                        <input type="radio"
+                                        name="dificultad-usuario"
+                                        value="mid"> Intermedio
+                                    
+                                    <label class="radio-label">
+                                        <input type="radio"
+                                        name="dificultad-usuario"
+                                        value="sr"> Avanzado
+                                </div>
+                        </div>
+                    </fieldset>
+                </section>
+                <footer>
+                    <br>
+                    <div class="form-field checkbox field">
+                        <input type="checkbox" id="terms" name="terms">
+                        <label for="terms">Acepto la <a href ="#">política de privacidad y reembolso</a></label>
+                    </div>
+                    <br>
+                    <nav>
+                        <div class="form-action">
+                            <button type="submit" class ="btn primary">Finalizar registro</button>
+                            <button type="reset" class="btn-secundary">Limpiar campos</button>
+                        </div>
+                    </nav>
+                </footer>
+            </form>    
+        </article>
+    </main>
+</body>
+</html>
